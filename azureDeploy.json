@@ -138,7 +138,7 @@
 		"metadata": {
 			"artifactsBaseUrl": ""
 		},
-		"defaultValue": "https://github.com/misteradamlh/pafw"
+		"defaultValue": "https://raw.githubusercontent.com/misteradamlh/pafw/master"
 	},
     "virtualNetworkName": {
       "type": "string",
