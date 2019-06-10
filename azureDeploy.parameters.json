@@ -138,7 +138,7 @@
 		"metadata": {
 			"artifactsBaseUrl": ""
 		},
-		"defaultValue": "https://git.uscs.susx.ac.uk/adamlh/pafw"
+		"defaultValue": "https://github.com/misteradamlh/pafw"
 	},
     "virtualNetworkName": {
       "type": "string",
