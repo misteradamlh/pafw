@@ -83,7 +83,7 @@
         },
         "imageVersion": {
             "type": "string",
-            "defaultValue": "latest",
+            "defaultValue": "8.0.0",
             "allowedValues": [
                 "7.1.1",
 		"8.0.0"		    
@@ -94,7 +94,7 @@
         }, 
         "imageSku": {
             "type": "string",
-            "defaultValue": "byol",
+            "defaultValue": "bundle1",
             "allowedValues": [
                 "byol",
 		"bundle1",
@@ -106,6 +106,7 @@
         }, 
         "vmSize": {
             "type": "string",
+	    "defaultValue": "Standard_D3_v2",	
             "allowedValues": [
                 "Standard_D3",
 		"Standard_D3_v2",
@@ -145,7 +146,7 @@
       "metadata": {
         "description": "Name of the virtual network that the consumer wants to use"
       },
-      "defaultValue": "panVnet"
+      "defaultValue": "transit"
     },
     "virtualNetworkAddressPrefix": {
       "type": "string",
@@ -156,21 +157,21 @@
     },
     "subnet0Name": {
       "type": "string",
-      "defaultValue": "Mgmt",
+      "defaultValue": "mgmt",
       "metadata": {
         "description": "Subnet for the Mgmt"
       }
     },
     "subnet1Name": {
       "type": "string",
-      "defaultValue": "Untrust",
+      "defaultValue": "untrust",
       "metadata": {
         "description": "Subnet for the Untrust"
       }
     },
     "subnet2Name": {
       "type": "string",
-      "defaultValue": "Trust",
+      "defaultValue": "trust",
       "metadata": {
         "description": "Subnet for the Trust"
       }
